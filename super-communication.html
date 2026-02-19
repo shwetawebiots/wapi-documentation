@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Wapi - NextJs Document" />
+    <meta name="keywords" content="Wapi - NextJs Document" />
+    <meta name="author" content="pixelstrap" />
+    <link rel="icon" href="assets/images/favicon.svg" type="image/x-icon" />
+    <link
+      rel="shortcut icon"
+      href="assets/images/favicon.svg"
+      type="image/x-icon"
+    />
+    <title>Introduction - Wapi documentation</title>
+    <!-- Google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome-->
+    <link rel="stylesheet" type="text/css" href="assets/css/fontawesome.css" />
+    <!-- Feather icon-->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="assets/css/vendors/feather-icon.css"
+    />
+    <!-- Remix icon-->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="assets/css/vendors/remixicon.css"
+    />
+    <!-- Remix icon-->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="assets/css/vendors/remixicon.css"
+    />
+    <!-- animate-->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="assets/css/vendors/animate.css"
+    />
+    <!-- Bootstrap css-->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="assets/css/vendors/bootstrap.css"
+    />
+    <!-- App css-->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+    <!-- Global Search css-->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="assets/css/global-search.css"
+    />
+  </head>
+
+  <body>
+    <!-- tap on top starts-->
+    <a href="javascript:void(0)" class="sidebar-overlay"></a>
+    <div class="tap-top">
+      <i data-feather="chevrons-up"></i>
+      <p>Top</p>
+    </div>
+    <!-- tap on tap ends-->
+    <div>
+      <div class="home-section">
+        <nav class="navbar navbar-expand-lg">
+          <div class="container custom-container">
+            <div class="main-menu">
+              <button
+                class="navbar-toggler collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <i class="fa fa-bars"> </i>
+              </button>
+              <a class="navbar-brand" href="index.html">
+                <img src="assets/images/logo/logo.svg" alt=""
+              /></a>
+              <div>
+                <div
+                  class="collapse navbar-collapse"
+                  id="navbarSupportedContent"
+                >
+                  <ul class="navbar-nav menu">
+                    <li class="nav-item active">
+                      <a
+                        class="nav-link"
+                        href="https://codecanyon.net/item/wapi-whatsapp-clone-web-chat-app-realtime-chat-script-group-chat-admin-panel/60857765"
+                        role="button"
+                        aria-haspopup="true"
+                        aria-expanded="false"
+                        target="_blank"
+                        >Purchase</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a
+                        class="nav-link"
+                        href="https://support.pixelstrap.com/"
+                        role="button"
+                        aria-haspopup="true"
+                        aria-expanded="false"
+                        target="_blank"
+                        >Support</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a
+                        class="nav-link"
+                        href="https://wapi-frontend-live.vercel.app/"
+                        role="button"
+                        aria-haspopup="true"
+                        aria-expanded="false"
+                        target="_blank"
+                        >Frontend</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a
+                        class="nav-link"
+                        href="https://wapi-admin-live.vercel.app"
+                        role="button"
+                        aria-haspopup="true"
+                        aria-expanded="false"
+                        target="_blank"
+                        >Admin
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <ul class="nav-right">
+                <li>
+                  <div class="btn-group">
+                    <a
+                      class="decrease btn btn-doc"
+                      href="#"
+                      title="Decrease font size"
+                      >A-</a
+                    ><a
+                      class="reset btn btn-doc"
+                      href="#"
+                      title="Default font size"
+                      >A</a
+                    ><a
+                      class="increase btn btn-doc"
+                      href="#"
+                      title="Increase font size"
+                      >A+</a
+                    >
+                  </div>
+                </li>
+                <li>
+                  <a class="btn btn-light mode" href="#" title="Dark"
+                    ><i class="fa fa-moon-o"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        <div class="container custom-container">
+          <div class="document">Wapi documentation</div>
+          <div class="top-heading">
+            <h2>Chat, collaborate, and create teams effortlessly with Wapi</h2>
+            <div class="home-search">
+              <input type="search" name="text" placeholder="Search..." />
+              <i class="fa fa-search" aria-hidden="true"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container custom-container" id="mainRightNavbar">
+      <div class="document-main">
+        <div class="left-sidebar">
+          <div class="card">
+            <div class="card-body">
+              <aside>
+                <button class="btn button-close">
+                  <span>Close</span>
+                  <i data-feather="x"></i>
+                </button>
+                <ul class="list-unstyled nav-sidebar doc-nav">
+                  <li class="nav-item">
+                    <div class="title">
+                      <a class="nav-link" href="index.html">Introduction</a>
+                    </div>
+                  </li>
+                  <li class="nav-item">
+                    <div class="title">
+                      <a class="nav-link" href="prerequisite.html"
+                        >Prerequisite</a
+                      >
+                    </div>
+                  </li>
+                  <li class="nav-item menu">
+                    <div class="title">
+                      <a class="nav-link" href="#!"
+                        >Wapi Installation
+                        <i class="fa fa-angle-down" aria-hidden="true"></i
+                      ></a>
+                    </div>
+                    <ul class="sub-menu">
+                      <li class="nav-item">
+                        <a href="overview.html" class="nav-link">Overview</a>
+                      </li>
+                      <li class="nav-item">
+                        <a href="frontend-installation.html" class="nav-link"
+                          >Frontend Installation</a
+                        >
+                      </li>
+                      <li class="nav-item menu">
+                        <div class="title">
+                          <a class="nav-link" href="#!"
+                            >Backend Installation
+                            <i class="fa fa-angle-down" aria-hidden="true"></i
+                          ></a>
+                        </div>
+                        <ul class="sub-menu nested-sub-menu">
+                          <li class="nav-item">
+                            <a href="local-server.html" class="nav-link"
+                              >Local Server</a
+                            >
+                          </li>
+                          <li class="nav-item">
+                            <a href="live-server.html" class="nav-link"
+                              >Live Server</a
+                            >
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="nav-item menu">
+                    <div class="title">
+                      <a class="nav-link" href="#!"
+                        >Deployment
+                        <i class="fa fa-angle-down" aria-hidden="true"></i
+                      ></a>
+                    </div>
+                    <ul class="sub-menu">
+                      <li class="nav-item">
+                        <a href="cpanel.html" class="nav-link">C-panel</a>
+                      </li>
+                      <li class="nav-item">
+                        <a href="virtual-server.html" class="nav-link"
+                          >Virtual Private Server</a
+                        >
+                      </li>
+                      <li class="nav-item">
+                        <a href="vercel.html" class="nav-link">Vercel</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <div class="title">
+                      <a class="nav-link" href="core-features.html"
+                        >Core Features</a
+                      >
+                    </div>
+                  </li>
+                  <li class="nav-item">
+                    <div class="title">
+                      <a class="nav-link" href="advanced-features.html"
+                        >Advanced Features</a
+                      >
+                    </div>
+                  </li>
+
+                  <li class="nav-item menu">
+                    <div class="title">
+                      <a class="nav-link" href="#!"
+                        >Admin
+                        <i class="fa fa-angle-down" aria-hidden="true"></i
+                      ></a>
+                    </div>
+                    <ul class="sub-menu">
+                      <li class="nav-item">
+                        <a href="super-dashboard.html" class="nav-link"
+                          >Dashboard Module</a
+                        >
+                      </li>
+                      <li class="nav-item">
+                        <a href="super-user.html" class="nav-link"
+                          >User Management Module</a
+                        >
+                      </li>
+                      <li class="nav-item">
+                        <a href="super-pages.html" class="nav-link"
+                          >Pages Module</a
+                        >
+                      </li>
+                      <li class="nav-item">
+                        <a href="super-faq.html" class="nav-link">FAQ Module</a>
+                      </li>
+                      <li class="nav-item">
+                        <a href="super-wallpaper.html" class="nav-link"
+                          >Chat wallpaper Module</a
+                        >
+                      </li>
+                      <li class="nav-item">
+                        <a href="super-sticker.html" class="nav-link"
+                          >Stickers Module</a
+                        >
+                      </li>
+                      <li class="nav-item">
+                        <a href="super-plans.html" class="nav-link"
+                          >Plans Module</a
+                        >
+                      </li>
+                      <li class="nav-item">
+                        <a href="super-sponsor.html" class="nav-link"
+                          >Sponsor Module</a
+                        >
+                      </li>
+                      <li class="nav-item">
+                        <a href="super-communication.html" class="nav-link"
+                          >Communication Module</a
+                        >
+                      </li>
+                      <li class="nav-item">
+                        <a href="super-setting.html" class="nav-link"
+                          >System Settings Module</a
+                        >
+                      </li>
+                      <li class="nav-item">
+                        <a href="sms-gateways.html" class="nav-link"
+                          >SMS Gateways</a
+                        >
+                      </li>
+                      <li class="nav-item">
+                        <a href="custom-sms.html" class="nav-link"
+                          >Custom SMS Gateways</a
+                        >
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <div class="title">
+                      <a class="nav-link" href="socket-io.html">Socket IO</a>
+                    </div>
+                  </li>
+                  <li class="nav-item">
+                    <div class="title">
+                      <a class="nav-link" href="webrtc.html">WebRTC</a>
+                    </div>
+                  </li>
+                  <li class="nav-item">
+                    <div class="title">
+                      <a class="nav-link" href="update.html"
+                        >Update Old to New Version</a
+                      >
+                    </div>
+                  </li>
+                  <li class="nav-item">
+                    <div class="title">
+                      <a class="nav-link" href="changelog.html">Change Log</a>
+                    </div>
+                  </li>
+                </ul>
+              </aside>
+            </div>
+          </div>
+        </div>
+        <div class="content">
+          <div class="row">
+            <div class="col-sm-12">
+              <button class="btn sidebar-button">Menu</button>
+              <h4 class="main-title mb-4">
+                <img src="assets/images/favicon.svg" alt="" /> Wapi Super Admin
+              </h4>
+            </div>
+            <div class="col-12">
+              <div class="card">
+                <div class="card-body ul-body super-dashboard-box">
+                  <h3 class="main-sub-title mt-0">
+                    7. Communication Management Module
+                  </h3>
+                  <h4>1. Contact Inquiries List View</h4>
+                  <p>
+                    The Contact Inquiries table captures every message submitted
+                    through Wapi’s public contact forms, showing requester name,
+                    email, subject, priority, status, and received date.
+                    Clicking a row opens a drawer with the full message body,
+                    attachments, and interaction history so Super Admins can
+                    respond or escalate without leaving the list.
+                  </p>
+                  <div class="row">
+                    <div class="col-xl-10">
+                      <div class="images-box">
+                        <img src="assets/images/super-admin/15.jpg" alt="" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12">
+              <div class="card">
+                <div class="card-body ul-body super-dashboard-box">
+                  <h4>2. Contact Inquiry Actions</h4>
+                  <ul>
+                    <li>
+                      <p>
+                        <b>Assign:</b> Drop-down to route the inquiry to a
+                        specific admin or team; assignment updates instantly and
+                        logs the change.
+                      </p>
+                    </li>
+                    <li>
+                      <p>
+                        <b>Respond:</b> Opens a reply panel where admins can
+                        send templated or freeform responses; sent messages log
+                        under the conversation thread.
+                      </p>
+                    </li>
+                    <li>
+                      <p>
+                        <b>Resolve / Reopen:</b> Status buttons trigger a
+                        confirmation modal and, once confirmed, move the inquiry
+                        to the appropriate queue with toast feedback. Bulk
+                        status updates are supported for triaging multiple
+                        tickets at once.
+                      </p>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12">
+              <div class="card">
+                <div class="card-body ul-body super-dashboard-box">
+                  <h4>3. Email Configuration View</h4>
+                  <p>
+                    A dedicated settings page presented as a form showing SMTP
+                    host, port, username, password (masked), support/from
+                    addresses, and display names. Fields are pre-populated from
+                    current settings fetched via the API so admins see the
+                    latest configuration.
+                  </p>
+                  <div class="row">
+                    <div class="col-xl-10">
+                      <div class="images-box">
+                        <img src="assets/images/super-admin/16.jpg" alt="" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12">
+              <div class="card">
+                <div class="card-body ul-body super-dashboard-box">
+                  <h4>4. Update Email Settings</h4>
+                  <p>
+                    Admins can edit the SMTP credentials, mail-from names, and
+                    support address, then click “Save” to submit. Changes
+                    trigger validation and, on success, display a toast
+                    confirming the updated configuration. The form prevents
+                    accidental submission by requiring confirmation when
+                    sensitive fields (password/host) change.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12">
+              <div class="card">
+                <div class="card-body ul-body super-dashboard-box">
+                  <h4>Key Points</h4>
+                  <ul>
+                    <li>
+                      <p>
+                        - Contact inquiry actions (assign, respond, resolve) all
+                        require confirmation and log activity for auditing.
+                      </p>
+                    </li>
+                    <li>
+                      <p>
+                        - Every email configuration change is validated and
+                        persists via the settings API, with toaster feedback.
+                      </p>
+                    </li>
+                    <li>
+                      <p>
+                        - Inquiry drawers expose full context—message,
+                        attachments, history—so responses are informed.
+                      </p>
+                    </li>
+                    <li>
+                      <p>
+                        - Bulk actions in the inquiry table help process high
+                        volumes quickly.
+                      </p>
+                    </li>
+                    <li>
+                      <p>
+                        - Sensitive email settings (password) are masked by
+                        default and only updated when explicitly changed.
+                      </p>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12">
+              <div class="card">
+                <div class="card-body">
+                  <div class="steps-box">
+                    <div class="steps-title">
+                      <div>
+                        <i class="fa fa-rocket" aria-hidden="true"></i>
+                        <h2>What's Next?</h2>
+                      </div>
+                      <p>
+                        Let’s get started — your team’s new home is Wapi Chat!
+                      </p>
+                    </div>
+                    <div class="row gy-4">
+                      <div class="col-md-4 col-sm-6">
+                        <a href="super-user.html" class="steps-content">
+                          <div class="icon">
+                            <img src="assets/images/icon/16.png" alt="" />
+                          </div>
+                          <div class="steps-items">
+                            <h3>User Management</h3>
+                            <p>Handle all user accounts efficiently.</p>
+                          </div>
+                        </a>
+                      </div>
+                      <div class="col-md-4 col-sm-6">
+                        <a href="super-dashboard.html" class="steps-content">
+                          <div class="icon">
+                            <img src="assets/images/icon/14.png" alt="" />
+                          </div>
+                          <div class="steps-items">
+                            <h3>Super Admin</h3>
+                            <p>Administrator with highest privileges</p>
+                          </div>
+                        </a>
+                      </div>
+                      <div class="col-md-4 col-sm-6">
+                        <a href="super-page.html" class="steps-content">
+                          <div class="icon">
+                            <img src="assets/images/icon/20.png" alt="" />
+                          </div>
+                          <div class="steps-items">
+                            <h3>Page Management</h3>
+                            <p>Edit and organize all static pages.</p>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="container">
+        <div class="row footer-theme partition-f">
+          <div class="col-12">Copyright 2026 © Wapi template by pixelstrap</div>
+        </div>
+      </div>
+    </footer>
+    <div class="bg-overlay"></div>
+  </body>
+
+  <!-- latest jquery-->
+  <script src="assets/js/jquery-3.5.1.min.js"></script>
+  <!-- Bootstrap js-->
+  <script src="assets/js/bootstrap/bootstrap.bundle.min.js"></script>
+  <!-- popover js-->
+  <!-- code copy box js-->
+  <!-- feather icon js-->
+  <script src="assets/js/icons/feather-icon/feather.min.js"></script>
+  <script src="assets/js/icons/feather-icon/feather-icon.js"></script>
+  <script src="assets/js/document/main.js"></script>
+  <script src="assets/js/script.js"></script>
+  <!-- Global Search js-->
+  <script src="assets/js/global-search.js"></script>
+</html>

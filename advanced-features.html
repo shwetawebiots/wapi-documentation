@@ -1,0 +1,1002 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Wapi - NextJs Document" />
+    <meta name="keywords" content="Wapi - NextJs Document" />
+    <meta name="author" content="pixelstrap" />
+    <link rel="icon" href="assets/images/favicon.svg" type="image/x-icon" />
+    <link
+      rel="shortcut icon"
+      href="assets/images/favicon.svg"
+      type="image/x-icon"
+    />
+    <title>Introduction - Wapi documentation</title>
+    <!-- Google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome-->
+    <link rel="stylesheet" type="text/css" href="assets/css/fontawesome.css" />
+    <!-- Feather icon-->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="assets/css/vendors/feather-icon.css"
+    />
+    <!-- Remix icon-->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="assets/css/vendors/remixicon.css"
+    />
+    <!-- Remix icon-->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="assets/css/vendors/remixicon.css"
+    />
+    <!-- animate-->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="assets/css/vendors/animate.css"
+    />
+    <!-- Bootstrap css-->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="assets/css/vendors/bootstrap.css"
+    />
+    <!-- App css-->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+    <!-- Global Search css-->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="assets/css/global-search.css"
+    />
+  </head>
+
+  <body>
+    <!-- tap on top starts-->
+    <a href="javascript:void(0)" class="sidebar-overlay"></a>
+    <div class="tap-top">
+      <i data-feather="chevrons-up"></i>
+      <p>Top</p>
+    </div>
+    <!-- tap on top ends-->
+    <div>
+      <div class="home-section">
+        <nav class="navbar navbar-expand-lg">
+          <div class="container custom-container">
+            <div class="main-menu">
+              <button
+                class="navbar-toggler collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <i class="fa fa-bars"> </i>
+              </button>
+              <a class="navbar-brand" href="index.html">
+                <img src="assets/images/logo/logo.svg" alt=""
+              /></a>
+              <div>
+                <div
+                  class="collapse navbar-collapse"
+                  id="navbarSupportedContent"
+                >
+                  <ul class="navbar-nav menu">
+                    <li class="nav-item active">
+                      <a
+                        class="nav-link"
+                        href="https://codecanyon.net/item/wapi-whatsapp-clone-web-chat-app-realtime-chat-script-group-chat-admin-panel/60857765"
+                        role="button"
+                        aria-haspopup="true"
+                        aria-expanded="false"
+                        target="_blank"
+                        >Purchase</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a
+                        class="nav-link"
+                        href="https://support.pixelstrap.com/"
+                        role="button"
+                        aria-haspopup="true"
+                        aria-expanded="false"
+                        target="_blank"
+                        >Support</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a
+                        class="nav-link"
+                        href="https://wapi-frontend-live.vercel.app/"
+                        role="button"
+                        aria-haspopup="true"
+                        aria-expanded="false"
+                        target="_blank"
+                        >Frontend</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a
+                        class="nav-link"
+                        href="https://wapi-admin-live.vercel.app"
+                        role="button"
+                        aria-haspopup="true"
+                        aria-expanded="false"
+                        target="_blank"
+                        >Admin
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <ul class="nav-right">
+                <li>
+                  <div class="btn-group">
+                    <a
+                      class="decrease btn btn-doc"
+                      href="#"
+                      title="Decrease font size"
+                      >A-</a
+                    ><a
+                      class="reset btn btn-doc"
+                      href="#"
+                      title="Default font size"
+                      >A</a
+                    ><a
+                      class="increase btn btn-doc"
+                      href="#"
+                      title="Increase font size"
+                      >A+</a
+                    >
+                  </div>
+                </li>
+                <li>
+                  <a class="btn btn-light mode" href="#" title="Dark"
+                    ><i class="fa fa-moon-o"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        <div class="container custom-container">
+          <div class="document">Wapi documentation</div>
+          <div class="top-heading">
+            <h2>Chat, collaborate, and create teams effortlessly with Wapi</h2>
+            <div class="home-search">
+              <input type="search" name="text" placeholder="Search..." />
+              <i class="fa fa-search" aria-hidden="true"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container custom-container" id="mainRightNavbar">
+      <div class="document-main">
+        <div class="left-sidebar">
+          <div class="card">
+            <div class="card-body">
+              <aside>
+                <button class="btn button-close">
+                  <span>Close</span>
+                  <i data-feather="x"></i>
+                </button>
+                <ul class="list-unstyled nav-sidebar doc-nav">
+                  <li class="nav-item">
+                    <div class="title">
+                      <a class="nav-link" href="index.html">Introduction</a>
+                    </div>
+                  </li>
+                  <li class="nav-item">
+                    <div class="title">
+                      <a class="nav-link" href="prerequisite.html"
+                        >Prerequisite</a
+                      >
+                    </div>
+                  </li>
+                  <li class="nav-item menu">
+                    <div class="title">
+                      <a class="nav-link" href="#!"
+                        >Wapi Installation
+                        <i class="fa fa-angle-down" aria-hidden="true"></i
+                      ></a>
+                    </div>
+                    <ul class="sub-menu">
+                      <li class="nav-item">
+                        <a href="overview.html" class="nav-link">Overview</a>
+                      </li>
+                      <li class="nav-item">
+                        <a href="frontend-installation.html" class="nav-link"
+                          >Frontend Installation</a
+                        >
+                      </li>
+                      <li class="nav-item menu">
+                        <div class="title">
+                          <a class="nav-link" href="#!"
+                            >Backend Installation
+                            <i class="fa fa-angle-down" aria-hidden="true"></i
+                          ></a>
+                        </div>
+                        <ul class="sub-menu nested-sub-menu">
+                          <li class="nav-item">
+                            <a href="local-server.html" class="nav-link"
+                              >Local Server</a
+                            >
+                          </li>
+                          <li class="nav-item">
+                            <a href="live-server.html" class="nav-link"
+                              >Live Server</a
+                            >
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="nav-item menu">
+                    <div class="title">
+                      <a class="nav-link" href="#!"
+                        >Deployment
+                        <i class="fa fa-angle-down" aria-hidden="true"></i
+                      ></a>
+                    </div>
+                    <ul class="sub-menu">
+                      <li class="nav-item">
+                        <a href="cpanel.html" class="nav-link">C-panel</a>
+                      </li>
+                      <li class="nav-item">
+                        <a href="virtual-server.html" class="nav-link"
+                          >Virtual Private Server</a
+                        >
+                      </li>
+                      <li class="nav-item">
+                        <a href="vercel.html" class="nav-link">Vercel</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <div class="title">
+                      <a class="nav-link" href="core-features.html"
+                        >Core Features</a
+                      >
+                    </div>
+                  </li>
+                  <li class="nav-item">
+                    <div class="title">
+                      <a class="nav-link" href="advanced-features.html"
+                        >Advanced Features</a
+                      >
+                    </div>
+                  </li>
+
+                  <li class="nav-item menu">
+                    <div class="title">
+                      <a class="nav-link" href="#!"
+                        >Admin
+                        <i class="fa fa-angle-down" aria-hidden="true"></i
+                      ></a>
+                    </div>
+                    <ul class="sub-menu">
+                      <li class="nav-item">
+                        <a href="super-dashboard.html" class="nav-link"
+                          >Dashboard Module</a
+                        >
+                      </li>
+                      <li class="nav-item">
+                        <a href="super-user.html" class="nav-link"
+                          >User Management Module</a
+                        >
+                      </li>
+                      <li class="nav-item">
+                        <a href="super-pages.html" class="nav-link"
+                          >Pages Module</a
+                        >
+                      </li>
+                      <li class="nav-item">
+                        <a href="super-faq.html" class="nav-link">FAQ Module</a>
+                      </li>
+                      <li class="nav-item">
+                        <a href="super-wallpaper.html" class="nav-link"
+                          >Chat wallpaper Module</a
+                        >
+                      </li>
+                      <li class="nav-item">
+                        <a href="super-sticker.html" class="nav-link"
+                          >Stickers Module</a
+                        >
+                      </li>
+                      <li class="nav-item">
+                        <a href="super-plans.html" class="nav-link"
+                          >Plans Module</a
+                        >
+                      </li>
+                      <li class="nav-item">
+                        <a href="super-sponsor.html" class="nav-link"
+                          >Sponsor Module</a
+                        >
+                      </li>
+                      <li class="nav-item">
+                        <a href="super-communication.html" class="nav-link"
+                          >Communication Module</a
+                        >
+                      </li>
+                      <li class="nav-item">
+                        <a href="super-setting.html" class="nav-link"
+                          >System Settings Module</a
+                        >
+                      </li>
+                      <li class="nav-item">
+                        <a href="sms-gateways.html" class="nav-link"
+                          >SMS Gateways</a
+                        >
+                      </li>
+                      <li class="nav-item">
+                        <a href="custom-sms.html" class="nav-link"
+                          >Custom SMS Gateways</a
+                        >
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <div class="title">
+                      <a class="nav-link" href="socket-io.html">Socket IO</a>
+                    </div>
+                  </li>
+                  <li class="nav-item">
+                    <div class="title">
+                      <a class="nav-link" href="webrtc.html">WebRTC</a>
+                    </div>
+                  </li>
+                  <li class="nav-item">
+                    <div class="title">
+                      <a class="nav-link" href="update.html"
+                        >Update Old to New Version</a
+                      >
+                    </div>
+                  </li>
+                  <li class="nav-item">
+                    <div class="title">
+                      <a class="nav-link" href="changelog.html">Change Log</a>
+                    </div>
+                  </li>
+                </ul>
+              </aside>
+            </div>
+          </div>
+        </div>
+        <div class="content">
+          <div class="row">
+            <div class="col-sm-12">
+              <button class="btn sidebar-button">Menu</button>
+              <h4 class="main-title mb-4">
+                <img src="assets/images/favicon.svg" alt="" />Wapi - Advanced
+                Features
+              </h4>
+            </div>
+            <div class="col-12">
+              <div class="card">
+                <div class="card-body ul-body">
+                  <h3 class="main-sub-title mt-0">
+                    Smart tools built for expressive communication, privacy, and
+                    social interaction.
+                  </h3>
+                  <div class="row gy-4">
+                    <div class="col-xxl-4 col-md-6">
+                      <div class="core-features">
+                        <div class="features-icon">
+                          <img
+                            src="assets/images/advence-feature/1.svg"
+                            alt=""
+                          />
+                        </div>
+                        <div class="features-content">
+                          <h3>Audio & Video Calling Suite</h3>
+                          <p>
+                            Stay connected with high-quality real-time
+                            communication.
+                          </p>
+                        </div>
+                        <ul class="features-hide-content">
+                          <li>
+                            <i class="fa fa-check" aria-hidden="true"></i>
+                            <b>WebRTC Integration:</b> <br />
+                            Make crystal-clear in-browser video and audio calls.
+                          </li>
+                          <li>
+                            <i class="fa fa-check" aria-hidden="true"></i>
+                            <b>Screen Sharing:</b> <br />
+                            Share your screen or application window during
+                            calls.
+                          </li>
+                          <li>
+                            <i class="fa fa-check" aria-hidden="true"></i>
+                            <b>Group Calls:</b> <br />Add multiple participants
+                            with stable connections.
+                          </li>
+                          <li>
+                            <i class="fa fa-check" aria-hidden="true"></i>
+                            <b>Call Controls:</b> <br />
+                            Toggle camera, mute, switch devices.
+                          </li>
+                          <li>
+                            <i class="fa fa-check" aria-hidden="true"></i>
+                            <b>Ring & Call Status:</b> <br />Incoming alerts,
+                            busy indicators, and call states.
+                          </li>
+                          <li>
+                            <i class="fa fa-check" aria-hidden="true"></i>
+                            <b>Network Handling:</b> <br />Automatic quality
+                            adjustments for low bandwidth.
+                          </li>
+                        </ul>
+                        <button class="btn view-more-btn">
+                          View More
+                          <i class="fa fa-angle-up" aria-hidden="true"></i>
+                        </button>
+                      </div>
+                    </div>
+                    <div class="col-xxl-4 col-md-6">
+                      <div class="core-features">
+                        <div class="features-icon">
+                          <img
+                            src="assets/images/advence-feature/2.svg"
+                            alt=""
+                          />
+                        </div>
+                        <div class="features-content">
+                          <h3>Social Profile & User Identity</h3>
+                          <p>
+                            Create meaningful connections with rich personal
+                            profiles.
+                          </p>
+                        </div>
+                        <ul class="features-hide-content">
+                          <li>
+                            <i class="fa fa-check" aria-hidden="true"></i>
+                            <b>Profile Customization:</b> <br />
+                            Name, bio, avatar, and status.
+                          </li>
+                          <li>
+                            <i class="fa fa-check" aria-hidden="true"></i>
+                            <b>Username Search:</b> <br />
+                            Find users effortlessly.
+                          </li>
+                          <li>
+                            <i class="fa fa-check" aria-hidden="true"></i>
+                            <b>Last Seen & Online Status:</b> <br />Real-time
+                            activity indicators.
+                          </li>
+                          <li>
+                            <i class="fa fa-check" aria-hidden="true"></i>
+                            <b>Social Links:</b> <br />
+                            Add personal links or handles.
+                          </li>
+                          <li>
+                            <i class="fa fa-check" aria-hidden="true"></i>
+                            <b>Profile Privacy:</b> <br />Control who sees what.
+                          </li>
+                          <li>
+                            <i class="fa fa-check" aria-hidden="true"></i>
+                            <b>Contact Sync:</b> <br />Easily find friends
+                            across devices.
+                          </li>
+                          <li>
+                            <i class="fa fa-check" aria-hidden="true"></i>
+                            <b>Verified User Badge:</b> <br />Blue tick to
+                            identify verified users via plan purchase or admin
+                            approval.
+                          </li>
+                        </ul>
+                        <button class="btn view-more-btn">
+                          View More
+                          <i class="fa fa-angle-up" aria-hidden="true"></i>
+                        </button>
+                      </div>
+                    </div>
+                    <div class="col-xxl-4 col-md-6">
+                      <div class="core-features">
+                        <div class="features-icon">
+                          <img
+                            src="assets/images/advence-feature/3.svg"
+                            alt=""
+                          />
+                        </div>
+                        <div class="features-content">
+                          <h3>Advanced Messaging Tools</h3>
+                          <p>
+                            A powerful chat experience built for fast and
+                            expressive communication.
+                          </p>
+                        </div>
+                        <ul class="features-hide-content">
+                          <li>
+                            <i class="fa fa-check" aria-hidden="true"></i>
+                            <b>Message Reactions:</b> <br />
+                            Emoji responses on messages.
+                          </li>
+                          <li>
+                            <i class="fa fa-check" aria-hidden="true"></i>
+                            <b>Mentions & Tagging:</b> <br />
+                            Highlight users in groups.
+                          </li>
+                          <li>
+                            <i class="fa fa-check" aria-hidden="true"></i>
+                            <b>Voice Notes:</b> <br />Record and send audio
+                            clips instantly.
+                          </li>
+                          <li>
+                            <i class="fa fa-check" aria-hidden="true"></i>
+                            <b>Forwarding & Replying:</b> <br />
+                            Keep conversations organized.
+                          </li>
+                          <li>
+                            <i class="fa fa-check" aria-hidden="true"></i>
+                            <b>Chat Filters:</b> <br />Sort by media, files,
+                            links, or unread.
+                          </li>
+                          <li>
+                            <i class="fa fa-check" aria-hidden="true"></i>
+                            <b>Dynamic Chat Loading:</b> <br />Seamless infinite
+                            scroll.
+                          </li>
+                          <li>
+                            <i class="fa fa-check" aria-hidden="true"></i>
+                            <b>Multiple Message Selection:</b> <br />Perform
+                            bulk actions like delete, forward, favourite and
+                            download in one go.
+                          </li>
+
+                          <li>
+                            <i class="fa fa-check" aria-hidden="true"></i>
+                            <b>Location Sharing:</b> <br />Share your live or
+                            current location directly in chat with other users.
+                          </li>
+
+                          <li>
+                            <i class="fa fa-check" aria-hidden="true"></i>
+                            <b>Pinned Messages:</b> <br />Pin up to three
+                            important messages in a chat and set how long they
+                            remain pinned.
+                          </li>
+                        </ul>
+                        <button class="btn view-more-btn">
+                          View More
+                          <i class="fa fa-angle-up" aria-hidden="true"></i>
+                        </button>
+                      </div>
+                    </div>
+                    <div class="col-xxl-4 col-md-6">
+                      <div class="core-features">
+                        <div class="features-icon">
+                          <img
+                            src="assets/images/advence-feature/4.svg"
+                            alt=""
+                          />
+                        </div>
+                        <div class="features-content">
+                          <h3>Stories & Moments</h3>
+                          <p>
+                            Share your daily life through quick, engaging
+                            updates.
+                          </p>
+                        </div>
+                        <ul class="features-hide-content">
+                          <li>
+                            <i class="fa fa-check" aria-hidden="true"></i>
+                            <b>Photo & Video Stories:</b> <br />Temporary posts
+                            that disappear automatically.
+                          </li>
+                          <li>
+                            <i class="fa fa-check" aria-hidden="true"></i>
+                            <b>Viewers List:</b> <br />See who viewed your
+                            story.
+                          </li>
+                          <li>
+                            <i class="fa fa-check" aria-hidden="true"></i>
+                            <b>Reaction Replies:</b> <br />One-tap emoji
+                            reactions.
+                          </li>
+                          <li>
+                            <i class="fa fa-check" aria-hidden="true"></i>
+                            <b>Privacy Controls:</b> <br />Public, private, or
+                            close-friends lists.
+                          </li>
+                          <li>
+                            <i class="fa fa-check" aria-hidden="true"></i>
+                            <b>Auto Compression:</b> <br />Optimizes media for
+                            quick uploads.
+                          </li>
+                          <li>
+                            <i class="fa fa-check" aria-hidden="true"></i>
+                            <b>Story Highlights:</b> <br />Save important
+                            stories permanently.
+                          </li>
+                          <li>
+                            <i class="fa fa-check" aria-hidden="true"></i>
+                            <b>Enable/Disable Stories:</b> <br />Turn the entire
+                            story section on or off directly from the admin
+                            panel.
+                          </li>
+                          <li>
+                            <i class="fa fa-check" aria-hidden="true"></i>
+                            <b>Story Replies:</b> <br />Reply directly to a
+                            user’s story for quick and private interactions.
+                          </li>
+                          <li>
+                            <i class="fa fa-check" aria-hidden="true"></i>
+                            <b>Story Mute:</b> <br />Mute specific users’
+                            stories to hide their updates from your feed.
+                          </li>
+                        </ul>
+                        <button class="btn view-more-btn">
+                          View More
+                          <i class="fa fa-angle-up" aria-hidden="true"></i>
+                        </button>
+                      </div>
+                    </div>
+                    <div class="col-xxl-4 col-md-6">
+                      <div class="core-features">
+                        <div class="features-icon">
+                          <img
+                            src="assets/images/advence-feature/7.svg"
+                            alt=""
+                          />
+                        </div>
+                        <div class="features-content">
+                          <h3>Group Management & Controls</h3>
+                          <p>
+                            Build and manage communities with flexible settings.
+                          </p>
+                        </div>
+                        <ul class="features-hide-content">
+                          <li>
+                            <i class="fa fa-check" aria-hidden="true"></i>
+                            <b>Group Creation:</b> <br />
+                            Public, private, or invite-only groups.
+                          </li>
+                          <li>
+                            <i class="fa fa-check" aria-hidden="true"></i>
+                            <b>Role Assignments:</b> <br />
+                            Admin, moderator, and member roles.
+                          </li>
+                          <li>
+                            <i class="fa fa-check" aria-hidden="true"></i>
+                            <b>Join Requests:</b> <br />
+                            Approve or deny new members.
+                          </li>
+                          <li>
+                            <i class="fa fa-check" aria-hidden="true"></i>
+                            <b>Group Announcements:</b> <br />
+                            Pinned posts and broadcast messages.
+                          </li>
+                          <li>
+                            <i class="fa fa-check" aria-hidden="true"></i>
+                            <b>Admin Tools:</b> <br />
+                            Remove, mute, or restrict members.
+                          </li>
+                          <li>
+                            <i class="fa fa-check" aria-hidden="true"></i>
+                            <b>Group Media Hub:</b> <br />
+                            View all files shared inside the group.
+                          </li>
+                        </ul>
+                        <button class="btn view-more-btn">
+                          View More
+                          <i class="fa fa-angle-up" aria-hidden="true"></i>
+                        </button>
+                      </div>
+                    </div>
+                    <div class="col-xxl-4 col-md-6">
+                      <div class="core-features">
+                        <div class="features-icon">
+                          <img
+                            src="assets/images/advence-feature/6.svg"
+                            alt=""
+                          />
+                        </div>
+                        <div class="features-content">
+                          <h3>Media & File Handling</h3>
+                          <p>
+                            A smooth sharing experience for all types of
+                            content.
+                          </p>
+                        </div>
+                        <ul class="features-hide-content">
+                          <li>
+                            <i class="fa fa-check" aria-hidden="true"></i
+                            ><b>Large File Uploads:</b> <br />
+                            Supports photos, videos, audio, and documents.
+                          </li>
+                          <li>
+                            <i class="fa fa-check" aria-hidden="true"></i>
+                            <b>Media Preview:</b> <br />
+                            Inline previews without downloading.
+                          </li>
+                          <li>
+                            <i class="fa fa-check" aria-hidden="true"></i>
+                            <b>Auto Compression:</b> <br />
+                            Optimize large videos and photos.
+                          </li>
+                          <li>
+                            <i class="fa fa-check" aria-hidden="true"></i>
+                            <b>Chat File Gallery:</b> <br />
+                            See all shared media in one view.
+                          </li>
+                          <li>
+                            <i class="fa fa-check" aria-hidden="true"></i>
+                            <b>File Type Controls:</b> <br />
+                            Manage supported formats.
+                          </li>
+                        </ul>
+                        <button class="btn view-more-btn">
+                          View More
+                          <i class="fa fa-angle-up" aria-hidden="true"></i>
+                        </button>
+                      </div>
+                    </div>
+                    <div class="col-xxl-4 col-md-6">
+                      <div class="core-features">
+                        <div class="features-icon">
+                          <img
+                            src="assets/images/advence-feature/5.svg"
+                            alt=""
+                          />
+                        </div>
+                        <div class="features-content">
+                          <h3>Notifications & Activity Alerts</h3>
+                          <p>Stay informed without interruptions.</p>
+                        </div>
+                        <ul class="features-hide-content">
+                          <li>
+                            <i class="fa fa-check" aria-hidden="true"></i>
+                            <b>Message Alerts:</b> <br />
+                            Fast and reliable delivery.
+                          </li>
+                          <li>
+                            <i class="fa fa-check" aria-hidden="true"></i>
+                            <b>Call Alerts:</b> <br />
+                            Incoming call popups.
+                          </li>
+                          <li>
+                            <i class="fa fa-check" aria-hidden="true"></i>
+                            <b>Story Notifications:</b> <br />
+                            See when new stories are posted.
+                          </li>
+                          <li>
+                            <i class="fa fa-check" aria-hidden="true"></i>
+                            <b>Unread Counter:</b> <br />
+                            Track messages across chats.
+                          </li>
+                          <li>
+                            <i class="fa fa-check" aria-hidden="true"></i>
+                            <b>Custom Notification Options:</b> <br />
+                            Per-chat settings.
+                          </li>
+                          <li>
+                            <i class="fa fa-check" aria-hidden="true"></i>
+                            <b>Sound, Badge & Popup Controls:</b> <br />
+                            Configure alert styles.
+                          </li>
+                        </ul>
+                        <button class="btn view-more-btn">
+                          View More
+                          <i class="fa fa-angle-up" aria-hidden="true"></i>
+                        </button>
+                      </div>
+                    </div>
+                    <div class="col-xxl-4 col-md-6">
+                      <div class="core-features">
+                        <div class="features-icon">
+                          <img
+                            src="assets/images/advence-feature/8.svg"
+                            alt=""
+                          />
+                        </div>
+                        <div class="features-content">
+                          <h3>Privacy & Security Controls</h3>
+                          <p>
+                            Protect conversations with powerful privacy tools.
+                          </p>
+                        </div>
+                        <ul class="features-hide-content">
+                          <li>
+                            <i class="fa fa-check" aria-hidden="true"></i>
+                            <b>End-to-End Safe Structure:</b> <br />
+                            Strong encryption for messages.
+                          </li>
+                          <li>
+                            <i class="fa fa-check" aria-hidden="true"></i>
+                            <b>Two-Step Verification:</b> <br />Secure login
+                            with OTP.
+                          </li>
+                          <li>
+                            <i class="fa fa-check" aria-hidden="true"></i>
+                            <b>Session Management:</b> <br />
+                            Track and revoke active devices.
+                          </li>
+                          <li>
+                            <i class="fa fa-check" aria-hidden="true"></i>
+                            <b>Block & Report System:</b> <br />
+                            Handle unwanted interactions.
+                          </li>
+                          <li>
+                            <i class="fa fa-check" aria-hidden="true"></i>
+                            <b>Media Visibility Controls:</b> <br />
+                            Hide or restrict media access.
+                          </li>
+                          <li>
+                            <i class="fa fa-check" aria-hidden="true"></i>
+                            <b>Account Protection Settings:</b> <br />
+                            Password, recovery mail, and backup codes.
+                          </li>
+                          <li>
+                            <i class="fa fa-check" aria-hidden="true"></i>
+                            <b>SMS Gateway Options:</b> <br />
+                            Choose the preferred SMS provider directly from the
+                            admin panel.
+                          </li>
+                          <li>
+                            <i class="fa fa-check" aria-hidden="true"></i>
+                            <b>Custom SMS Gateway Support:</b> <br />
+                            Add and use your own SMS gateway for message
+                            delivery.
+                          </li>
+                        </ul>
+                        <button class="btn view-more-btn">
+                          View More
+                          <i class="fa fa-angle-up" aria-hidden="true"></i>
+                        </button>
+                      </div>
+                    </div>
+                    <div class="col-xxl-4 col-md-6">
+                      <div class="core-features">
+                        <div class="features-icon">
+                          <img
+                            src="assets/images/advence-feature/9.svg"
+                            alt=""
+                          />
+                        </div>
+                        <div class="features-content">
+                          <h3>Explore & Social Discovery</h3>
+                          <p>Connect, discover, and grow your social circle.</p>
+                        </div>
+                        <ul class="features-hide-content">
+                          <li>
+                            <i class="fa fa-check" aria-hidden="true"></i>
+                            <b>User Discovery:</b> <br />
+                            Explore trending or suggested profiles.
+                          </li>
+                          <li>
+                            <i class="fa fa-check" aria-hidden="true"></i>
+                            <b>Friend Requests:</b> <br />
+                            Add or accept new connections.
+                          </li>
+                          <li>
+                            <i class="fa fa-check" aria-hidden="true"></i>
+                            <b>Search Filters:</b> <br />
+                            Find people by name or interest.
+                          </li>
+                          <li>
+                            <i class="fa fa-check" aria-hidden="true"></i>
+                            <b>Recommended Users:</b> <br />
+                            Smart suggestions based on interactions.
+                          </li>
+                          <li>
+                            <i class="fa fa-check" aria-hidden="true"></i>
+                            <b>Trending Stories:</b> <br />
+                            See what’s popular within your network.
+                          </li>
+                          <li>
+                            <i class="fa fa-check" aria-hidden="true"></i>
+                            <b>Social Feed Expansion:</b> Future-ready design
+                            for upcoming social modules.
+                          </li>
+                        </ul>
+                        <button class="btn view-more-btn">
+                          View More
+                          <i class="fa fa-angle-up" aria-hidden="true"></i>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12">
+            <div class="card">
+              <div class="card-body">
+                <div class="steps-box">
+                  <div class="steps-title">
+                    <div>
+                      <i class="fa fa-rocket" aria-hidden="true"></i>
+                      <h2>What's Next?</h2>
+                    </div>
+                    <p>
+                      Let’s get started — your team’s new home is Wapi Chat!
+                    </p>
+                  </div>
+                  <div class="row gy-4">
+                    <div class="col-md-4 col-sm-6">
+                      <a href="prerequisite.html" class="steps-content">
+                        <div class="icon">
+                          <img src="assets/images/icon/2.png" alt="" />
+                        </div>
+                        <div class="steps-items">
+                          <h3>Prerequisite</h3>
+                          <p>Required tools and setup</p>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                      <a href="super-dashboard.html" class="steps-content">
+                        <div class="icon">
+                          <img src="assets/images/icon/14.png" alt="" />
+                        </div>
+                        <div class="steps-items">
+                          <h3>Super Admin</h3>
+                          <p>Administrator with highest privileges</p>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                      <a href="socket-io.html" class="steps-content">
+                        <div class="icon">
+                          <img src="assets/images/icon/22.png" alt="" />
+                        </div>
+                        <div class="steps-items">
+                          <h3>Socket IO</h3>
+                          <p>Real-time communication library</p>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="container">
+        <div class="row footer-theme partition-f">
+          <div class="col-12">Copyright 2026 © Wapi template by pixelstrap</div>
+        </div>
+      </div>
+    </footer>
+    <div class="bg-overlay"></div>
+  </body>
+
+  <!-- latest jquery-->
+  <script src="assets/js/jquery-3.5.1.min.js"></script>
+  <!-- Bootstrap js-->
+  <script src="assets/js/bootstrap/bootstrap.bundle.min.js"></script>
+  <!-- popover js-->
+  <!-- code copy box js-->
+  <!-- feather icon js-->
+  <script src="assets/js/icons/feather-icon/feather.min.js"></script>
+  <script src="assets/js/icons/feather-icon/feather-icon.js"></script>
+  <script src="assets/js/document/main.js"></script>
+  <script src="assets/js/script.js"></script>
+  <!-- Global Search js-->
+  <script src="assets/js/global-search.js"></script>
+</html>
