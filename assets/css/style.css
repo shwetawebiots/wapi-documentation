@@ -5200,7 +5200,7 @@ ul.list-style li:last-child {
   display: block;
 }
 .nav-sidebar .nav-item .title.active {
-  background-color: #05966938;
+  background-color:  rgba(5, 150, 105, 0.1);
   width: 100%;
   padding: 8px 12px !important;
   outline: 1px solid #059669;
@@ -6310,7 +6310,7 @@ p b {
   font-weight: 600;
 }
 .nav-sidebar > .nav-item.active .title {
-  background-color: rgba(85, 121, 248, 0.1);
+  background-color: rgba(5, 150, 105, 0.1);
   padding: 8px 12px;
   outline: 1px solid #059669;
   outline-offset: 2px;
@@ -8102,3 +8102,6 @@ body.dark-only .doc-nav .nav-item.active .sub-menu .nav-item .title .nav-link {
   z-index: 0;
 }
 /*# sourceMappingURL=style.css.map */
+ul.square{
+  margin-bottom: 15px;
+}

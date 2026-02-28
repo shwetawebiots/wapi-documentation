@@ -4,8 +4,8 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Wapi - NextJs Document" />
-    <meta name="keywords" content="Wapi - NextJs Document" />
+    <meta name="description" content="Wapi - Webhook Integration Documentation" />
+    <meta name="keywords" content="Wapi, Frontend, Webhook, Integration, API" />
     <meta name="author" content="pixelstrap" />
     <link rel="icon" href="assets/images/favicon.svg" type="image/x-icon" />
     <link
@@ -13,7 +13,7 @@
       href="assets/images/favicon.svg"
       type="image/x-icon"
     />
-    <title>Introduction - Wapi documentation</title>
+    <title>Webhook Integration - Wapi documentation</title>
     <!-- Google font-->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -33,12 +33,6 @@
       rel="stylesheet"
       type="text/css"
       href="assets/css/vendors/feather-icon.css"
-    />
-    <!-- Remix icon-->
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="assets/css/vendors/remixicon.css"
     />
     <!-- Remix icon-->
     <link
@@ -181,7 +175,7 @@
         <div class="container custom-container">
           <div class="document">Wapi documentation</div>
           <div class="top-heading">
-            <h2>Chat, collaborate, and create teams effortlessly with Wapi</h2>
+            <h2>Webhook Integration Overview</h2>
             <div class="home-search">
               <input type="search" name="text" placeholder="Search..." />
               <i class="fa fa-search" aria-hidden="true"></i>
@@ -297,79 +291,73 @@
                     <ul class="sub-menu">
                       <li class="nav-item">
                         <a href="admin-dashboard.html" class="nav-link"
-                          >Admin Dashboard</a
+                          >Dashboard Module</a
                         >
                       </li>
                       <li class="nav-item">
-                        <a href="admin-plan-management.html" class="nav-link"
-                          >Plan Creation & Management</a
+                        <a href="manage-plans.html" class="nav-link"
+                          >Manage Plans</a
                         >
                       </li>
                       <li class="nav-item">
-                        <a href="admin-user-subscriptions.html" class="nav-link"
+                        <a href="user-subscriptions.html" class="nav-link"
                           >User Subscriptions</a
                         >
                       </li>
                       <li class="nav-item">
-                        <a
-                          href="admin-payment-transactions.html"
-                          class="nav-link"
+                        <a href="payment-transactions.html" class="nav-link"
                           >Payment Transactions</a
                         >
                       </li>
                       <li class="nav-item">
-                        <a href="admin-manage-users.html" class="nav-link"
+                        <a href="manage-users.html" class="nav-link"
                           >Manage Users</a
                         >
                       </li>
                       <li class="nav-item">
-                        <a href="admin-manage-faqs.html" class="nav-link"
+                        <a href="manage-faqs.html" class="nav-link"
                           >Manage FAQs</a
                         >
                       </li>
                       <li class="nav-item">
-                        <a
-                          href="admin-manage-testimonials.html"
-                          class="nav-link"
+                        <a href="manage-testimonials.html" class="nav-link"
                           >Manage Testimonials</a
                         >
                       </li>
                       <li class="nav-item">
-                        <a href="admin-landing-page.html" class="nav-link"
+                        <a href="manage-landing-page.html" class="nav-link"
                           >Manage Landing Page</a
                         >
                       </li>
                       <li class="nav-item">
-                        <a href="admin-template-library.html" class="nav-link"
+                        <a href="template-library.html" class="nav-link"
                           >Template Library</a
                         >
                       </li>
                       <li class="nav-item">
-                        <a href="admin-payment-gateways.html" class="nav-link"
-                          >Payment Gateways (Stripe & Razorpay)</a
+                        <a href="payment-gateway.html" class="nav-link"
+                          >Payment Gateway</a
                         >
                       </li>
                       <li class="nav-item">
-                        <a href="admin-settings.html" class="nav-link"
-                          >Platform Settings & Keys</a
+                        <a href="settings.html" class="nav-link"
+                          >Settings</a
                         >
                       </li>
                       <li class="nav-item">
-                        <a href="admin-ai-models.html" class="nav-link"
+                        <a href="ai-models.html" class="nav-link"
                           >AI Models</a
                         >
                       </li>
                       <li class="nav-item">
-                        <a
-                          href="admin-contact-inquiries.html"
-                          class="nav-link"
+                        <a href="contact-inquiries.html" class="nav-link"
                           >Contact Inquiries</a
                         >
                       </li>
                     </ul>
                   </li>
 
-                                    <li class="nav-item menu">
+                  <li class="nav-item menu">
                     <div class="title">
                       <a class="nav-link" href="#!"
                         >Frontend
@@ -438,7 +426,7 @@
                         >
                       </li>
                       <li class="nav-item">
-                        <a href="webhook-integration.html" class="nav-link"
+                        <a href="webhook-integration.html" class="nav-link active"
                           >Webhook Integration</a
                         >
                       </li>
@@ -448,11 +436,19 @@
                         >
                       </li>
                       <li class="nav-item">
-                        <a href="developer-api.html" class="nav-link active"
+                        <a href="developer-api.html" class="nav-link"
                           >Developer API</a
                         >
                       </li>
                     </ul>
+                  </li>
+
+                  <li class="nav-item">
+                    <div class="title">
+                      <a class="nav-link" href="update.html"
+                        ></a
+                      >
+                    </div>
                   </li>
 
                 </ul>
@@ -465,61 +461,49 @@
             <div class="col-sm-12">
               <button class="btn sidebar-button">Menu</button>
               <h4 class="main-title mb-4">
-                <img src="assets/images/favicon.svg" alt="" />Deploying Wapi on
-                cPanel
+                <img src="assets/images/favicon.svg" alt="" /> Webhook Integration
               </h4>
             </div>
             <div class="col-12">
-              <div class="warning-box">
-                <p>
-                  We don’t recommend deploying the Wapi backend on cPanel
-                  because it doesn’t provide the flexibility or runtime control
-                  needed to manage background services and real-time
-                  functionalities effectively.
-                </p>
+              <div class="card">
+                <div class="card-body ul-body">
+                  <h4 class="main-sub-title" style="font-weight: 600">
+                    Overview
+                  </h4>
+                  <p>
+                    Webhook Integration allows you to create webhooks that connect to any e-commerce platform or business system. You can map these webhooks to specific events in any platform, and when those events occur, automatically send mapped message templates to customers via WhatsApp.
+                  </p>
+                </div>
               </div>
             </div>
-            <div class="col-12">
-              <div class="info-box">
-                <h4>Prerequisites</h4>
-                <ul>
-                  <li>
-                    <p>
-                      <b>-cPanel Hosting:</b> Ensure your hosting plan supports
-                      Node.js and has sufficient resources.
-                    </p>
-                  </li>
-                  <li>
-                    <p>
-                      <b>-FTP Access:</b> Obtain FTP credentials for file
-                      uploads.
-                    </p>
-                  </li>
-                  <li>
-                    <p>
-                      <b>-Domain Configuration:</b> Verify that your domain is
-                      correctly pointed to your cPanel account.
-                    </p>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <h3 class="main-sub-title mt-0 border-0">
-              Frontend Deployment (React + Vite)
-            </h3>
             <div class="col-12">
               <div class="card">
-                <div class="card-body">
-                  <div class="deployment-steps">
-                    <h4>Step 1: Configure Vite for Production</h4>
-                    <div class="code-block">
-                      <ul>
-                        <li>export default defineConfig({</li>
-                        <li>
-                          &nbsp;&nbsp;&nbsp;base: 'https://yourdomain.com/',
-                        </li>
-                        <li>});</li>
-                      </ul>
+                <div class="card-body ul-body">
+                  <h4 class="main-sub-title" style="font-weight: 600">
+                    Webhook Configuration
+                  </h4>
+                  <ul class="square">
+                    <li>
+                      <strong>Webhook Creation:</strong> Create webhooks that connect to any e-commerce platform or business system
+                    </li>
+                    <li>
+                      <strong>Event Mapping:</strong> Map webhooks to specific events in any platform (order creation, payment received, shipment, etc.)
+                    </li>
+                    <li>
+                      <strong>Template Triggering:</strong> On event trigger, automatically send mapped message templates to customers
+                    </li>
+                    <li>
+                      <strong>Universal Compatibility:</strong> Works with any platform that supports webhook integration
+                    </li>
+                    <li>
+                      <strong>Real-time Notifications:</strong> Instantly notify customers of order status changes and business events
+                    </li>
+                  </ul>
+                  <div class="row">
+                    <div class="col-xl-10">
+                      <div class="images-box">
+                        <img src="assets/images/user/webhook.png" alt="" />
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -527,121 +511,27 @@
             </div>
             <div class="col-12">
               <div class="card">
-                <div class="card-body">
-                  <div class="deployment-steps">
-                    <h4>Step 2: Build the Application</h4>
-                    <div class="code-block">
-                      <ul>
-                        <li>npm install</li>
-                        <li>&nbsp;</li>
-                        <li>npm run build</li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-12">
-              <div class="card">
-                <div class="card-body">
-                  <div class="deployment-steps">
-                    <h4>Step 3: Upload to cPanel</h4>
-                    <ul>
-                      <li>
-                        <p>
-                          -Log in to cPanel and navigate to <b>File Manager</b>.
-                        </p>
-                      </li>
-                      <li>
-                        -Go to the <b>public_html</b> directory (or subdirectory
-                        for subdomain).
-                      </li>
-                      <li>
-                        -Click <b>Upload</b> and select the dist.zip file.
-                      </li>
-                      <li>-Extract the uploaded zip file.</li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-12">
-              <div class="card">
-                <div class="card-body">
-                  <div class="deployment-steps">
-                    <h4>Step 4: Configure <b>.htaccess</b> for SPA Routing</h4>
-                    <div class="code-block">
-                      &lt;ul&gt;<br />
-                      &nbsp;&nbsp;&lt;li&gt;IfModule mod_rewrite.c&lt;/li&gt;<br />
-                      &nbsp;&nbsp;&lt;li&gt;RewriteEngine On&lt;/li&gt;<br />
-                      &nbsp;&nbsp;&lt;li&gt;RewriteBase /&lt;/li&gt;<br />
-                      &nbsp;&nbsp;&lt;li&gt;RewriteRule ^index\.html$ -
-                      [L]&lt;/li&gt;<br />
-                      &nbsp;&nbsp;&lt;li&gt;RewriteCond %{REQUEST_FILENAME}
-                      !-f&lt;/li&gt;<br />
-                      &nbsp;&nbsp;&lt;li&gt;RewriteCond %{REQUEST_FILENAME}
-                      !-d&lt;/li&gt;<br />
-                      &nbsp;&nbsp;&lt;li&gt;RewriteCond %{REQUEST_FILENAME}
-                      !-l&lt;/li&gt;<br />
-                      &nbsp;&nbsp;&lt;li&gt;RewriteRule . /index.html
-                      [L]&lt;/li&gt;<br />
-                      &nbsp;&nbsp;&lt;li&gt;IfModule&lt;/li&gt;<br />
-                      &lt;/ul&gt;
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-12">
-              <div class="card bottom-card">
-                <div class="card-body">
-                  <div class="steps-box">
-                    <div class="steps-title">
-                      <div>
-                        <i class="fa fa-rocket" aria-hidden="true"></i>
-                        <h2>What's Next?</h2>
-                      </div>
-                      <p>
-                        Let’s get started — your team’s new home is Wapi Chat!
-                      </p>
-                    </div>
-                    <div class="row gy-4">
-                      <div class="col-md-4 col-sm-6">
-                        <a href="prerequisite.html" class="steps-content">
-                          <div class="icon">
-                            <img src="assets/images/icon/2.png" alt="" />
-                          </div>
-                          <div class="steps-items">
-                            <h3>Prerequisite</h3>
-                            <p>Required tools and setup</p>
-                          </div>
-                        </a>
-                      </div>
-                      <div class="col-md-4 col-sm-6">
-                        <a href="virtual-server.html" class="steps-content">
-                          <div class="icon">
-                            <img src="assets/images/icon/9.png" alt="" />
-                          </div>
-                          <div class="steps-items">
-                            <h3>Deploy on VPS</h3>
-                            <p>VPS deployment setup guide</p>
-                          </div>
-                        </a>
-                      </div>
-                      <div class="col-md-4 col-sm-6">
-                        <a href="vercel.html" class="steps-content">
-                          <div class="icon">
-                            <img src="assets/images/icon/10.png" alt="" />
-                          </div>
-                          <div class="steps-items">
-                            <h3>Deploy on Vercel</h3>
-                            <p>Vercel deployment guide steps</p>
-                          </div>
-                        </a>
-                      </div>
-                    </div>
-                  </div>
+                <div class="card-body ul-body">
+                  <h4 class="main-sub-title" style="font-weight: 600">
+                    Integration Benefits
+                  </h4>
+                  <ul class="square">
+                    <li>
+                      <strong>Automated Communication:</strong> Eliminate manual notification processes
+                    </li>
+                    <li>
+                      <strong>Platform Agnostic:</strong> Connect with any system that supports webhooks
+                    </li>
+                    <li>
+                      <strong>Template Mapping:</strong> Associate specific message templates with different events
+                    </li>
+                    <li>
+                      <strong>Real-time Processing:</strong> Immediate response to business events
+                    </li>
+                    <li>
+                      <strong>Scalable Solution:</strong> Handle increasing volumes without additional manual work
+                    </li>
+                  </ul>
                 </div>
               </div>
             </div>
@@ -658,7 +548,6 @@
     </footer>
     <div class="bg-overlay"></div>
   </body>
-
   <!-- latest jquery-->
   <script src="assets/js/jquery-3.5.1.min.js"></script>
   <!-- Bootstrap js-->
